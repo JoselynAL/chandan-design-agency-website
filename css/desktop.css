@@ -24,17 +24,34 @@
   padding: 0;
 }
 
-.title {
-  max-width: 500px;
-  font-size: 45px;
+.grid-container2 {
+  width: 100%;
+  height: 623px;
+  background-color: #E9F4FF;
+  padding: 40px;
 }
 
-.woman-img {
-  display: flex;
-  align-items: center;
+.float-img {
+  float: right;
   width: 555px;
   height: 600px;
 }
+
+.box-title {
+  box-sizing: border-box;
+  width: auto;
+  height: 206px;
+  font-size: 100px;
+  
+}
+
+.button-lets-talk {
+  width: 167px;
+  height: 54px;
+  background-color: #4361EE;
+  color: #ffffff;
+}
+
 /* Joselyn upper */
 
 /* Changgwon down */
