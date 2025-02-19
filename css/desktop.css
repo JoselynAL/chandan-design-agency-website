@@ -1,0 +1,18 @@
+.header-logo, .lines {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+} 
+
+.header-logo {
+
+    text-align: left;
+    height: 70px;
+    width: 70px;
+
+}
+
+.lines {
+
+}
+/* Joselyn upper */
