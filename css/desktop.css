@@ -13,7 +13,7 @@
 }
 
 /* Part 2 */
-.grid-container2 {
+.crafting-container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -76,7 +76,37 @@
 }
 
 /****************** Secction 2 *****************/
+/* Part 1 */
+.elevate-container {
+  width: 100%;
+  padding: 40px;
+  margin-top: 100px;
+}
 
+.elevate-subtitle {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.elevate-text {
+  text-align: center;
+}
+
+.grid-elevate {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-items: center;
+}
+
+.teaching-img {
+  float: left;
+}
+
+.teaching-text {
+  
+}
 
 /* Joselyn upper */
 
