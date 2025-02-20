@@ -19,12 +19,12 @@
   grid-template-rows: repeat(2, 1fr);
   width: 100%;
   height: 550px;
-  background-color: #E9F4FF;
+  background-color: #e9f4ff;
   padding: 40px;
 }
 
 .crafting-title {
-  grid-column: 1 /span 6;
+  grid-column: 1 / span 6;
   text-align: left;
   font-size: 50px;
   font-weight: 700;
@@ -33,7 +33,7 @@
 
 .bold-text {
   text-decoration: underline;
-  color: #4361EE;
+  color: #4361ee;
 }
 
 /* button */
@@ -76,7 +76,6 @@
 }
 
 /****************** Secction 2 *****************/
-
 
 /* Joselyn upper */
 
@@ -175,7 +174,7 @@
   text-align: center;
   font-size: 3rem;
   color: #1a2630;
-  margin-bottom: 5%;
+  margin-bottom: 7%;
 }
 
 .contact-infomation {
