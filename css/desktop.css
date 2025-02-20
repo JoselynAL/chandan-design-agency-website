@@ -4,52 +4,79 @@
   padding: 0;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 1fr;
-  align-items: center;
-  gap: 10px;
+/****************** Secction 1 *****************/
+/* Part 1 */
+.logo-container {
+  display: flex;
+  justify-content: space-between;
   padding: 20px;
 }
 
-.header-logo {
-  grid-column: span 1;
-}
-
-.lines {
-  grid-column: span 11;
-  text-align: right;
-  margin: 0;
-  padding: 0;
-}
-
+/* Part 2 */
 .grid-container2 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   width: 100%;
-  height: 623px;
-  background-color: #e9f4ff;
+  height: 550px;
+  background-color: #E9F4FF;
   padding: 40px;
 }
 
-.float-img {
-  float: right;
-  width: 555px;
-  height: 600px;
+.crafting-title {
+  grid-column: 1 /span 6;
+  text-align: left;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.2;
 }
 
-.box-title {
-  box-sizing: border-box;
-  width: auto;
-  height: 206px;
-  font-size: 100px;
+.bold-text {
+  text-decoration: underline;
+  color: #4361EE;
 }
 
-.button-lets-talk {
-  width: 167px;
-  height: 54px;
+/* button */
+.crafting-bt {
+  display: grid;
+  grid-column: 1 / span 2;
+  margin-top: 20px;
+}
+
+.lets-talk-bt {
+  display: flex;
   background-color: #4361ee;
+  justify-content: center;
+  border: none;
+  border-radius: 8px;
   color: #ffffff;
+  font-weight: bold;
+  font-size: 1.1rem;
+  height: auto;
+  min-height: 50px;
+  gap: 0.5rem;
+  padding: 10px 20px;
 }
+
+.lets-talk-bt img {
+  width: 20px;
+}
+
+/* woman img */
+.img-container {
+  grid-column: 7 / span 12;
+  grid-row: 1 / span 2;
+  text-align: right;
+}
+
+.woman-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+/****************** Secction 2 *****************/
+
 
 /* Joselyn upper */
 
