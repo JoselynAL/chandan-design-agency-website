@@ -27,7 +27,7 @@
 .grid-container2 {
   width: 100%;
   height: 623px;
-  background-color: #E9F4FF;
+  background-color: #e9f4ff;
   padding: 40px;
 }
 
@@ -42,19 +42,132 @@
   width: auto;
   height: 206px;
   font-size: 100px;
-  
 }
 
 .button-lets-talk {
   width: 167px;
   height: 54px;
-  background-color: #4361EE;
+  background-color: #4361ee;
   color: #ffffff;
 }
 
 /* Joselyn upper */
 
 /* Changgwon down */
+
+/* contact-area section */
+.contact-area {
+  padding: 5% 0;
+  width: 100%;
+  margin-top: 5%; /* modify later */
+}
+
+.contact-title {
+  text-align: center;
+  font-size: 3rem;
+  color: #1a2630;
+  margin-bottom: 5%;
+}
+
+.contact-infomation {
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 8%;
+  width: 100%;
+  background-color: #e9f4ff;
+}
+
+.left-contact-side {
+  display: flex;
+  flex-direction: column;
+  gap: 8vh;
+  justify-content: center;
+  width: 50%;
+}
+
+.office-address,
+.contact-no,
+.email {
+  display: flex;
+  gap: 4vh;
+  align-items: flex-start;
+}
+
+.address-infomation,
+.contact-no-infomation,
+.email-infomation {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+.info-subtitle {
+  color: #1a2630;
+  font-size: 1.5rem;
+}
+
+.info-content {
+  color: #4f5863;
+  font-size: 1.1rem;
+}
+
+.right-contact-side {
+  background-color: #ffffff;
+  border-radius: 15px;
+  width: 50%;
+  padding: 3%;
+}
+
+.user-info-area {
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+}
+
+.user-name,
+.user-email,
+.user-company,
+.user-phone {
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+}
+
+.user-banner {
+  color: #1a2630;
+  font-size: 1rem;
+}
+
+.user-info {
+  border-radius: 6px;
+  border: 1px solid #e2e7ed;
+  background-color: transparent;
+  width: 100%;
+  height: auto;
+  min-height: 50px;
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+.submit-bt button {
+  background-color: #4361ee;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  min-height: 50px;
+  gap: 0.5rem;
+  padding: 10px 20px;
+  width: 30%;
+  margin-top: 5%;
+}
+
+/* blog-area section */
 .blog-area {
   padding: 5% 8%;
   margin-bottom: 3%;
@@ -240,6 +353,7 @@
   flex-direction: column;
   gap: 1.1vw;
 }
+
 .email-banner {
   color: #ffffff;
   font-size: 1rem;
@@ -280,7 +394,7 @@
 
 /* ft-bottom-area */
 .ft-bottom-area {
-  padding-bottom: 1vw;
+  padding-bottom: 1%;
 }
 
 .ft-bottom-area p {
