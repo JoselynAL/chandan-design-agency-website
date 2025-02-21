@@ -127,7 +127,7 @@
 
 /***************************** Joselyn upper ****************************/
 
-/* Changgwon down */
+/***************************** Changgwon down *****************************/
 /* happy-stories-area section */
 .happy-stories-area {
   margin-top: 5%;
@@ -424,10 +424,10 @@
   padding: 4% 8%;
 }
 
-/* .ft-upper-area > :nth-child(3),
+.ft-upper-area > :nth-child(3),
 .ft-upper-area > :nth-child(4) {
   transform: translateX(-6vw);
-} */
+}
 
 /* ft-first-area */
 .ft-first-area {
@@ -569,7 +569,7 @@
 
 /***************************** media query *****************************/
 /* for tablet */
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 767px) {
   .ft-upper-area {
     flex-wrap: wrap;
     width: 100%;
@@ -596,8 +596,10 @@
   }
 }
 
+
+
 /* for mobile(smartphone) */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 575px) {
   .ft-upper-area {
     flex-direction: column;
     flex-wrap: wrap;
