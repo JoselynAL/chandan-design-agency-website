@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-/****************** Secction 1 *****************/
+/****************** Part 1 *****************/
 /* Part 1 */
 .logo-container {
   display: flex;
@@ -56,6 +56,7 @@
   min-height: 50px;
   gap: 0.5rem;
   padding: 10px 20px;
+  align-items: center;
 }
 
 .lets-talk-bt img {
@@ -75,7 +76,7 @@
   border-radius: 15px;
 }
 
-/****************** Secction 2 *****************/
+/****************** Part 2 *****************/
 /* Part 1 */
 .elevate-container {
   width: 100%;
@@ -91,23 +92,35 @@
 
 .elevate-text {
   text-align: center;
+  margin-top: 30px;
+  font-size: 1.3rem;
+  line-height: 1.8;
+  max-width: 95%;
 }
 
-.grid-elevate {
-  display: flex;
-  width: 100%;
-  text-align: center;
-  justify-items: center;
+.elevate-container2 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  margin-top: 60px;
+  align-items: center;
 }
 
 .teaching-img {
-  float: left;
+  grid-column: 1 / span 5;
+  width: 411px;
+  height: auto;
 }
 
 .teaching-text {
+  grid-column: 6 / span 12;
+  justify-content: left;
+  font-size: 1.3rem;
+  line-height: 1.8;
+  max-width: 95%;
 }
 
-/* Joselyn upper */
+/***************************** Joselyn upper ****************************/
 
 /* Changgwon down */
 /* happy-stories-area section */
