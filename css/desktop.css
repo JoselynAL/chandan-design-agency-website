@@ -87,7 +87,8 @@
 .elevate-subtitle {
   text-align: center;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 48px;
+  font-family: #1A2630;
 }
 
 .elevate-text {
@@ -96,28 +97,33 @@
   font-size: 1.3rem;
   line-height: 1.8;
   max-width: 95%;
+  font-family: #4F5863;
 }
 
 .elevate-container2 {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-  margin-top: 60px;
+  display: flex;
   align-items: center;
+  margin-top: 60px;
+  min-height: 50px;
+  min-width: 50px;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  border: none;
 }
 
 .teaching-img {
-  grid-column: 1 / span 5;
+  margin-bottom: 3%;
+  margin-right: 4%;
   width: 411px;
   height: auto;
 }
 
 .teaching-text {
-  grid-column: 6 / span 12;
-  justify-content: left;
   font-size: 1.3rem;
   line-height: 1.8;
   max-width: 95%;
+  font-family: #4F5863;
 }
 
 /***************************** Joselyn upper ****************************/
