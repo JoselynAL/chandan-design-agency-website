@@ -1,6 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+
 /***************************** media query *****************************/
 /* for tablet */
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) {
   .ft-upper-area {
     flex-wrap: wrap;
     width: 100%;
@@ -29,9 +38,9 @@
 
 
 
-/* for mobile(smartphone) */
-@media screen and (max-width: 575px) {
-  .ft-upper-area {
+/* for desktop */
+@media screen and (min-width: 992px) {
+  /* .ft-upper-area {
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
@@ -65,5 +74,5 @@
 
   .ft-forth-area {
     order: 2;
-  }
+  } */
 }
