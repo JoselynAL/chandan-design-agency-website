@@ -1,18 +1,504 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-
-
-
-
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 /***************************** Joselyn upper ****************************/
 
 /***************************** Changgwon down *****************************/
+/************ happy-stories-area section ************/
+.happy-stories-area {
+  margin-top: 7%;
+  padding: 6% 6%;
+  width: 100%;
+}
+
+.happy-stories-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #1a2630;
+  margin-bottom: 8%;
+}
+
+.stories-area {
+  display: flex;
+  align-items: center;
+}
+
+.left-arrow-area {
+  background-color: #f4f6fe;
+  max-height: 50px;
+  max-width: 50px;
+  padding: 15px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5%;
+  border: none;
+}
+
+.main-stories-left-area {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10%;
+  margin-top: 3%;
+}
+
+.main-stories-area {
+  background-color: #f4f6fe;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  gap: 6%;
+  border: none;
+}
+
+.left-quotation {
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.main-stories {
+  display: flex;
+  max-width: 100%;
+  text-align: center;
+}
+
+.main-stories-content {
+  color: #4f5863;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  max-width: 95%;
+  display: none; /* caution : only mobile & tablet */
+}
+
+.main-second-stories-content {
+  color: #4f5863;
+  font-size: 1.3rem;
+  line-height: 1.8;
+  max-width: 100%;
+  padding: 0 3%;
+}
+
+.right-arrow-area {
+  background-color: #f4f6fe;
+  max-height: 50px;
+  max-width: 50px;
+  padding: 15px;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+}
+
+.dots {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+
+.dot1 {
+  width: 8px;
+  height: 8px;
+  background-color: #edeff9;
+  border: none;
+  border-radius: 50%;
+  order: 1;
+}
+
+.dot2 {
+  width: 8px;
+  height: 8px;
+  background-color: #edeff9;
+  border: none;
+  border-radius: 50%;
+  order: 3;
+}
+
+.dot-diff {
+  width: 8px;
+  height: 8px;
+  background-color: #1a2630;
+  border: none;
+  border-radius: 50%;
+  order: 2;
+}
+
+/************ contact-area section ************/
+.contact-area {
+  padding: 5% 0;
+  width: 100%;
+  margin-top: 3%;
+  margin-bottom: 10%;
+}
+
+.contact-us-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #1a2630;
+  margin-bottom: 8%;
+}
+
+.contact-infomation {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-direction: column;
+  padding: 6% 6%;
+  width: 100%;
+  background-color: #e9f4ff;
+}
+
+/* .left-contact-side {
+  display: flex;
+  flex-direction: column;
+  gap: 8vh;
+  justify-content: center;
+  width: 100%;
+  margin-top: 5%;
+} */
+
+.left-contact-side {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10vh;
+}
+
+.office-address,
+.contact-no,
+.email {
+  display: flex;
+  gap: 4vh;
+  align-items: flex-start;
+}
+
+.address-infomation,
+.contact-no-infomation,
+.email-infomation {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  margin-top: 2%;
+}
+
+.info-subtitle {
+  color: #1a2630;
+  font-size: 1.5rem;
+}
+
+.info-content {
+  color: #4f5863;
+  font-size: 1.1rem;
+}
+
+.right-contact-side {
+  background-color: #ffffff;
+  border-radius: 15px;
+  width: 100%;
+  padding: 6% 10%;
+  top: 110px;
+  position: relative;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.04);
+}
+
+.user-info-area {
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+}
+
+.user-name,
+.user-email,
+.user-company,
+.user-phone {
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+}
+
+.user-banner {
+  color: #1a2630;
+  font-size: 1rem;
+}
+
+.user-info {
+  border-radius: 6px;
+  border: 1px solid #e2e7ed;
+  background-color: transparent;
+  width: 100%;
+  height: auto;
+  min-height: 50px;
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+.submit-bt button {
+  background-color: #4361ee;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  min-height: 60px;
+  gap: 0.5rem;
+  padding: 10px 20px;
+  width: 30%;
+  margin-top: 3%;
+}
+
+/************ blog-area section ************/
+.blog-area {
+  padding: 6% 6%;
+  margin-bottom: 8%;
+  width: 100%;
+}
+
+.blog-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #1a2630;
+  margin-bottom: 8%;
+}
+
+.three-banner {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 3vw;
+}
+
+.first-banner,
+.second-banner,
+.third-banner {
+  /* width: calc((100% - 10vw) / 3); */
+  background-color: #e9f4ff;
+  border-radius: 15px;
+}
+
+.banner-img {
+  width: 100%;
+}
+
+.first-banner-info,
+.second-banner-info,
+.third-banner-info {
+  padding: 8% 8%;
+  max-width: 300px;
+  line-height: 1.5;
+}
+
+.third-banner {
+  display: none;
+}
+
+.banner-info {
+  color: #1a2630;
+  font-size: 1.3rem;
+  margin-bottom: 7%;
+}
+
+.read-more {
+  display: flex;
+  gap: 0.7rem;
+}
+
+.read-more p {
+  font-size: 1rem;
+  color: #4361ee;
+}
+
+.bt-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 8%;
+}
+
+.view-all-bt button {
+  background-color: #4361ee;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  min-height: 55px;
+  gap: 0.5rem;
+  padding: 10px 20px;
+  width: 80%;
+  max-width: 350px;
+  min-width: 150px;
+}
+
+/************************************************ footer ************************************************/
 #ft-area {
-    background-color: #03071b;
-    max-width: 100%;
-    height: auto;
-  }
+  background-color: #03071b;
+  max-width: 100%;
+  height: auto;
+}
+
+/************ ft-upper-area ************/
+.ft-upper-area {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 5vw;
+  padding: 6% 6%;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.ft-upper-area > div {
+  width: 40%;
+}
+
+.ft-upper-area > :nth-child(4) {
+  transform: translateX(-6vw);
+}
+
+/************ ft-first-area ************/
+.ft-first-area {
+  display: flex;
+  flex-direction: column;
+  gap: 4vw;
+  order: 1;
+}
+
+.social-media-area {
+  display: flex;
+  gap: 2.5vw;
+}
+
+/************ ft-second-area ************/
+.ft-second-area {
+  display: flex;
+  flex-direction: column;
+  gap: 3vw;
+  order: 3;
+}
+
+.ft-second-area .contact-title {
+  color: #f5f5f5;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.location-info,
+.call-info,
+.sms-info {
+  display: flex;
+  gap: 1.5vw;
+}
+
+.ft-second-area p {
+  color: #f5f5f5;
+  font-size: 1rem; /* 1rem = 16px */
+}
+
+/************ ft-third-area ************/
+.ft-third-area {
+  display: flex;
+  flex-direction: column;
+  gap: 3vw;
+  order: 4;
+}
+
+.ft-third-area .explore-title {
+  color: #f5f5f5;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.info-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5vw;
+}
+
+.ft-third-area p {
+  color: #f5f5f5;
+  font-size: 1rem;
+}
+
+/************ ft-forth-area ************/
+.ft-forth-area {
+  display: flex;
+  flex-direction: column;
+  gap: 3vw;
+  order: 2;
+}
+
+.ft-forth-area .subscribe-title {
+  color: #f5f5f5;
+  font-weight: bold;
+  font-size: 1.3rem;
+  width: 130%;
+}
+
+.email-area {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+}
+
+.email-banner {
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.email-info {
+  border-radius: 6px;
+  border: 1px solid #7b7c82;
+  background-color: transparent;
+  width: 130%;
+  height: auto;
+  min-height: 50px;
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+.subscribe-info {
+  color: #f5f5f5;
+  font-size: 0.8rem;
+  width: 130%;
+}
+
+.subscribe-bt button {
+  background-color: #4361ee;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  min-height: 50px;
+  gap: 0.5rem;
+  padding: 10px 20px;
+}
+
+/************ ft-bottom-area ************/
+.ft-bottom-area {
+  padding-bottom: 3vh;
+}
+
+.ft-bottom-area p {
+  text-align: center;
+  color: #f5f5f5;
+  font-size: 0.9rem;
+}
