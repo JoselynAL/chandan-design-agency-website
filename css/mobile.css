@@ -1,13 +1,159 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-
-
-
-
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 /***************************** Joselyn upper ****************************/
 
 /***************************** Changgwon down *****************************/
+#ft-area {
+  background-color: #03071b;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ft-upper-area */
+.ft-upper-area {
+  display: flex;
+  flex-direction: column;
+  gap: 8vw;
+  padding: 4% 4%;
+}
+
+/* ft-first-area */
+.ft-first-area {
+  display: flex;
+  gap: 8vw;
+  order: 1;
+}
+
+.social-media-area {
+  display: flex;
+  gap: 6vw;
+}
+
+.social-media-area img {
+  max-width: 15%;
+}
+
+/* ft-second-area */
+.ft-second-area {
+  display: flex;
+  flex-direction: column;
+  gap: 4vw;
+  order: 3;
+}
+
+.ft-second-area .contact-title {
+  color: #f5f5f5;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.location-info,
+.call-info,
+.sms-info {
+  display: flex;
+  gap: 2vw;
+}
+
+.ft-second-area p {
+  color: #f5f5f5;
+  font-size: 1rem; /* 1rem = 16px */
+}
+
+/* ft-third-area */
+.ft-third-area {
+  display: flex;
+  flex-direction: column;
+  gap: 4vw;
+  order: 4;
+}
+
+.ft-third-area .explore-title {
+  color: #f5f5f5;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.info-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 4vw;
+}
+
+.ft-third-area p {
+  color: #f5f5f5;
+  font-size: 1rem;
+}
+
+/* ft-forth-area */
+.ft-forth-area {
+  display: flex;
+  flex-direction: column;
+  gap: 4vw;
+  order: 2;
+}
+
+.ft-forth-area .subscribe-title {
+  color: #f5f5f5;
+  font-weight: bold;
+  font-size: 1.5rem;
+  max-width: 100%;
+}
+
+.email-area {
+  display: flex;
+  flex-direction: column;
+  gap: 4vw;
+}
+
+.email-banner {
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.email-info {
+  border-radius: 6px;
+  border: 1px solid #7b7c82;
+  background-color: transparent;
+  max-width: 100%;
+  height: auto;
+  min-height: 50px;
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+.subscribe-info {
+  color: #f5f5f5;
+  font-size: 0.8rem;
+}
+
+/* button with arrow img */
+.subscribe-bt button {
+  background-color: #4361ee;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  min-height: 50px;
+  gap: 0.5rem;
+  padding: 10px 20px;
+}
+
+/* ft-bottom-area */
+.ft-bottom-area {
+  padding: 5vh 0;
+}
+
+.ft-bottom-area p {
+  text-align: center;
+  color: #f5f5f5;
+  font-size: 0.9rem;
+}
