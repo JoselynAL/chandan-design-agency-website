@@ -570,7 +570,7 @@
 
 /***************************** media query *****************************/
 /* for tablet */
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .ft-upper-area {
     flex-wrap: wrap;
     width: 100%;
@@ -595,12 +595,12 @@
   .ft-forth-area {
     order: 2;
   }
-}
+} */
 
 
 
 /* for mobile(smartphone) */
-@media screen and (max-width: 575px) {
+/* @media screen and (max-width: 575px) {
   .ft-upper-area {
     flex-direction: column;
     flex-wrap: wrap;
@@ -636,4 +636,4 @@
   .ft-forth-area {
     order: 2;
   }
-}
+} */
