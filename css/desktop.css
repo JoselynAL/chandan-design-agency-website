@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-/****************** Part 1 *****************/
+/****************** Section 1 *****************/
 /* Part 1 */
 .logo-container {
   display: flex;
@@ -76,7 +76,7 @@
   border-radius: 15px;
 }
 
-/****************** Part 2 *****************/
+/****************** Section 2 *****************/
 /* Part 1 */
 .elevate-container {
   width: 100%;
@@ -105,25 +105,25 @@
   padding: 5%;
   gap: 6%;
   margin-top: 60px;
-  min-height: 50px;
-  min-width: 50px;
   padding: 15px;
   border: none;
 }
 
 .teaching-img {
-  overflow: content-box;
-  overflow: clip;
+  float: left;
 }
 
 .teaching-text {
   font-size: 1.3rem;
   line-height: 1.8;
-  max-width: 45%;
+  max-width: 85%;
   font-family: #4F5863;
-  justify-content: right;
-  align-items: center;
+  text-align: left;
 }
+
+/****************** Section 3 *****************/
+
+
 
 /***************************** Joselyn upper ****************************/
 
