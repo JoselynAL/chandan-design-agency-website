@@ -297,7 +297,6 @@
   background-color: #1a2630;
   border: none;
   border-radius: 50%;
-  background-color: #1a2630;
 }
 
 /************ contact-area section ************/
@@ -514,7 +513,10 @@
   padding: 4% 8%;
 }
 
-.ft-upper-area > :nth-child(3),
+.ft-upper-area > :nth-child(3) {
+  transform: translateX(-4vw);
+}
+
 .ft-upper-area > :nth-child(4) {
   transform: translateX(-6vw);
 }

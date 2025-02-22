@@ -149,21 +149,11 @@
 
 .contact-infomation {
   display: flex;
-  /* justify-content: space-between; */
   flex-direction: column;
   padding: 6% 6%;
   width: 100%;
   background-color: #e9f4ff;
 }
-
-/* .left-contact-side {
-  display: flex;
-  flex-direction: column;
-  gap: 8vh;
-  justify-content: center;
-  width: 100%;
-  margin-top: 5%;
-} */
 
 .left-contact-side {
   display: grid;
@@ -273,14 +263,13 @@
 
 .three-banner {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: center;
   gap: 3vw;
 }
 
 .first-banner,
 .second-banner,
 .third-banner {
-  /* width: calc((100% - 10vw) / 3); */
   background-color: #e9f4ff;
   border-radius: 15px;
 }
@@ -354,7 +343,6 @@
 /************ ft-upper-area ************/
 .ft-upper-area {
   display: flex;
-  /* justify-content: space-between; */
   gap: 5vw;
   padding: 6% 6%;
   flex-wrap: wrap;
