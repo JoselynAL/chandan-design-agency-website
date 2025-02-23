@@ -6,6 +6,218 @@
   padding: 0;
 }
 
+/****************** Main Section *****************/
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.header-logo {
+  width: 40px;
+}
+
+/****************** Crafting Visual Stories Section *****************/
+.crafting-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 100%;
+  height: 550px;
+  background-color: #e9f4ff;
+  padding: 40px;
+}
+
+.crafting-title {
+  grid-column: 1 / span 6;
+  text-align: left;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.underline-img {
+  display: inline;
+  background-image: url(../assets/imgs/section1/icons/Vector\ 5.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  padding-bottom: 5px;
+}
+
+/* button */
+.crafting-bt {
+  display: grid;
+  grid-column: 1 / span 2;
+  margin-top: 20px;
+}
+
+.lets-talk-bt {
+  display: flex;
+  background-color: #4361ee;
+  justify-content: center;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.1rem;
+  height: auto;
+  min-height: 50px;
+  gap: 0.5rem;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+.lets-talk-bt img {
+  width: 20px;
+}
+
+/* woman img */
+.img-container {
+  grid-column: 7 / span 12;
+  grid-row: 1 / span 2;
+  text-align: right;
+}
+
+.woman-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+/****************** Elevate Your Brand Section *****************/
+.elevate-container {
+  width: 100%;
+  padding: 40px;
+  margin-top: 100px;
+}
+
+.elevate-subtitle {
+  text-align: center;
+  font-weight: bold;
+  font-size: 48px;
+  font-family: #1a2630;
+}
+
+.underline-img {
+  display: inline;
+  background-image: url(../assets/imgs/section1/icons/Vector\ 4.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  padding-bottom: 5px;
+}
+
+.elevate-text {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 1.3rem;
+  line-height: 1.8;
+  max-width: 95%;
+  font-family: #4f5863;
+}
+
+.elevate-container2 {
+  display: flex;
+  padding: 5%;
+  gap: 6%;
+  margin-top: 60px;
+  padding: 15px;
+  border: none;
+}
+
+.teaching-img {
+  float: left;
+}
+
+.teaching-text {
+  font-size: 1.3rem;
+  line-height: 1.8;
+  max-width: 85%;
+  font-family: #4f5863;
+  text-align: left;
+}
+
+/****************** Our Services Section *****************/
+.services-area {
+  display: contents;
+  padding: 60px 20px;
+}
+
+.services-subtitle {
+  font-size: 48px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.underline-img {
+  display: inline;
+  background-image: url(../assets/imgs/section1/icons/Vector\ 5.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  padding-bottom: 5px;
+}
+
+.eight-services {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0;
+  margin-left: 110px;
+}
+
+.logo-design,
+.development,
+.ui-ux-design,
+.digital-marketing,
+.content-writing,
+.email-marketing,
+.motion-desing,
+.print-desing {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  overflow: hidden;
+}
+
+.logo-design-img,
+.development-img,
+.ui-ux-design-img,
+.digital-marketing-img,
+.content-writing-img,
+.email-marketing-img,
+.motion-desing-img,
+.print-desing-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.logo-design-overlay,
+.development-overlay,
+.ui-ux-design-overlay,
+.digital-marketing-overlay,
+.content-writing-overlay,
+.email-marketing-overlay,
+.motion-desing-overlay,
+.print-desing-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 75%;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1rem;
+  margin-top: 80px;
+}
+
 /***************************** Joselyn upper ****************************/
 
 /***************************** Changgwon down *****************************/
@@ -471,6 +683,152 @@
 /************ for tablet ************/
 /************ for tablet ************/
 @media (max-width: 1024px) {
+  /****************** Main Section *****************/
+  .logo-container {
+    padding: 15px; 
+  }
+  
+  .header-logo {
+    width: 35px; 
+  }
+  /****************** Crafting Visual Stories Section *****************/
+  .crafting-container {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+    height: auto;
+    padding: 30px; 
+  }
+
+  .crafting-title {
+    grid-column: 1 / span 6;  
+    text-align: left;
+    font-size: 40px;  
+  }
+
+  .crafting-bt {
+    grid-column: 1 / span 4;  
+    margin-top: 15px;
+    justify-self: start;  
+  }
+
+  .img-container {
+    grid-column: 7 / span 6; 
+    grid-row: 1;
+    text-align: center;  
+  }
+
+  .woman-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+  /****************** Elevate Your Brand Section *****************/
+  .elevate-container {
+    padding: 30px;      
+    margin-top: 80px;  
+  }
+  
+  .elevate-subtitle {
+    font-size: 36px;     
+  }
+  
+  .elevate-text {
+    font-size: 1.2rem;  
+    max-width: 90%;     
+    margin: 0 auto;     
+  }
+  
+  .elevate-container2 {
+    flex-direction: row; 
+    padding: 10px;       
+    gap: 4%;            
+    margin-top: 50px;    
+  }
+  
+  .teaching-img {
+    float: none;      
+    width: 50%;         
+  }
+  
+  .teaching-text {
+    font-size: 1.1rem;  
+    max-width: 90%;     
+    text-align: left;    
+  }
+  /****************** Our Services Section *****************/
+  /* Elevate Section */
+  .elevate-container {
+    padding: 30px;
+    margin-top: 80px;
+  }
+
+  .elevate-subtitle {
+    font-size: 36px;
+  }
+
+  .elevate-text {
+    font-size: 1.2rem;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .elevate-container2 {
+    flex-direction: row;
+    gap: 4%;
+    padding: 10px;
+  }
+
+  .teaching-img {
+    width: 50%;
+    float: none;
+  }
+
+  .teaching-text {
+    font-size: 1.1rem;
+    max-width: 90%;
+    text-align: left;
+  }
+  
+  /* Our Services Section */
+  .services-area {
+    padding: 40px 20px;
+  }
+
+  .services-subtitle {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+
+  .eight-services {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-left: 0;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .content-writing,
+  .email-marketing,
+  .motion-desing,
+  .print-desing {
+    display: none;
+  }
+  
+  .logo-design,
+  .development,
+  .ui-ux-design,
+  .digital-marketing {
+    max-width: 100%;
+  }
+  
+  .logo-design-overlay,
+  .development-overlay,
+  .ui-ux-design-overlay,
+  .digital-marketing-overlay {
+    height: 80%;
+    margin-top: 60px;
+  }
+}
   /***************************** Joselyn upper ****************************/
 
   /***************************** Changgwon down *****************************/
@@ -695,6 +1053,156 @@
 /************ for mobile ************/
 /************ for mobile ************/
 @media (max-width: 768px) {
+  /****************** Main Section *****************/
+  .logo-container {
+    padding: 10px; 
+  }
+  
+  .header-logo {
+    width: 30px; 
+  }
+  /****************** Crafting Visual Stories Section *****************/
+  .crafting-container {
+    grid-template-columns: 1fr;       
+    grid-template-rows: auto auto auto; 
+    height: auto;                     
+    padding: 20px;                   
+  }
+
+  .crafting-title {
+    grid-column: 1;                   
+    text-align: center;              
+    font-size: 36px;                 
+  }
+
+  .crafting-bt {
+    grid-column: 1;
+    justify-self: center;            
+    margin-top: 20px;                
+  }
+
+  .img-container {
+    grid-column: 1;
+    grid-row: 3;                     
+    text-align: center;
+    margin-top: 20px;               
+  }
+
+  .woman-img {
+    max-width: 90%;                 
+    height: auto;
+    border-radius: 15px;
+  }
+  /****************** Elevate Your Brand Section *****************/
+  .elevate-container {
+    padding: 20px;       
+    margin-top: 50px;    
+  }
+  
+  .elevate-subtitle {
+    font-size: 28px;     
+  }
+  
+  .elevate-text {
+    font-size: 1rem;    
+    max-width: 100%;    
+    margin: 0 auto;      
+    text-align: center;  
+  }
+  
+  .elevate-container2 {
+    flex-direction: column; 
+    padding: 10px;         
+    gap: 10px;             
+    margin-top: 40px;      
+  }
+  
+  .teaching-img {
+    float: none;        
+    width: 100%;         
+    margin-bottom: 20px; 
+  }
+  
+  .teaching-text {
+    font-size: 1rem;    
+    max-width: 100%;      
+    text-align: center;   
+  }
+  /****************** Our Services Section *****************/
+  /* Elevate Section */
+  .elevate-container {
+    padding: 30px;
+    margin-top: 80px;
+  }
+
+  .elevate-subtitle {
+    font-size: 36px;
+  }
+
+  .elevate-text {
+    font-size: 1.2rem;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .elevate-container2 {
+    flex-direction: row;
+    gap: 4%;
+    padding: 10px;
+  }
+
+  .teaching-img {
+    width: 50%;
+    float: none;
+  }
+
+  .teaching-text {
+    font-size: 1.1rem;
+    max-width: 90%;
+    text-align: left;
+  }
+  
+  /* Our Services Section */
+  .services-area {
+    padding: 40px 20px;
+  }
+
+  .services-subtitle {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+
+  .eight-services {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-left: 0;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .content-writing,
+  .email-marketing,
+  .motion-desing,
+  .print-desing {
+    display: none;
+  }
+  
+  .logo-design,
+  .development,
+  .ui-ux-design,
+  .digital-marketing {
+    max-width: 100%;
+  }
+
+  .logo-design-overlay,
+  .development-overlay,
+  .ui-ux-design-overlay,
+  .digital-marketing-overlay {
+    height: 80%;
+    margin-top: 60px;
+  }
+}
+
   /***************************** Joselyn upper ****************************/
 
   /***************************** Changgwon down *****************************/
