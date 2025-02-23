@@ -4,15 +4,14 @@
   padding: 0;
 }
 
-/****************** Section 1 *****************/
-/* Part 1 */
+/****************** Main Section *****************/
 .logo-container {
   display: flex;
   justify-content: space-between;
   padding: 20px;
 }
 
-/* Part 2 */
+/****************** Crafting Visual Stories Section *****************/
 .crafting-container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -166,20 +165,41 @@
   margin-left: 110px;
 }
 
-.logo-design {
+.logo-design,
+.development,
+.ui-ux-design,
+.digital-marketing,
+.content-writing,
+.email-marketing,
+.motion-desing,
+.print-desing {
   position: relative;
   width: 100%;
   max-width: 300px;
   overflow: hidden;
 }
 
-.logo-design-img {
+.logo-design-img,
+.development-img,
+.ui-ux-design-img,
+.digital-marketing-img,
+.content-writing-img,
+.email-marketing-img,
+.motion-desing-img,
+.print-desing-img {
   display: block;
   width: 100%;
   height: auto;
 }
 
-.logo-design-overlay {
+.logo-design-overlay,
+.development-overlay,
+.ui-ux-design-overlay,
+.digital-marketing-overlay,
+.content-writing-overlay,
+.email-marketing-overlay,
+.motion-desing-overlay,
+.print-desing-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -190,6 +210,7 @@
   flex-direction: column;
   justify-content: flex-end;
   padding: 1rem;
+  margin-top: 80px;
 }
 
 /***************************** Joselyn upper ****************************/
