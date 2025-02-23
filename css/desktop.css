@@ -11,6 +11,10 @@
   padding: 20px;
 }
 
+.header-logo {
+  width: 40px;
+}
+
 /****************** Crafting Visual Stories Section *****************/
 .crafting-container {
   display: grid;
@@ -79,8 +83,8 @@
   border-radius: 15px;
 }
 
-/****************** Section 2 *****************/
-/* Part 1 */
+/****************** Elevate Your Brand Section *****************/
+
 .elevate-container {
   width: 100%;
   padding: 40px;
@@ -133,7 +137,7 @@
   text-align: left;
 }
 
-/****************** Section 3 *****************/
+/****************** Our Services Section *****************/
 .services-area {
   display: contents;
   padding: 60px 20px;

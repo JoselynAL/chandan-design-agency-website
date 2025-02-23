@@ -13,6 +13,10 @@
   padding: 20px;
 }
 
+.header-logo {
+  width: 40px;
+}
+
 /****************** Crafting Visual Stories Section *****************/
 .crafting-container {
   display: grid;
@@ -676,6 +680,16 @@
 /***************************** media query *****************************/
 /***************************** media query *****************************/
 
+/****************** Main Section *****************/
+@media (max-width: 768px) {
+  .logo-container {
+    padding: 10px; /* Menor padding para dispositivos móviles */
+  }
+  
+  .header-logo {
+    width: 30px; /* Logo aún más pequeño para pantallas reducidas */
+  }
+}
 
 /****************** Crafting Visual Stories Section *****************/
 @media (max-width: 768px) {
@@ -712,81 +726,129 @@
   }
 }
 
- /****************** Our Services Section *****************/
+/****************** Elevate Your Brand Section *****************/
+@media (max-width: 768px) {
+  .elevate-container {
+    padding: 20px;       /* Menor padding para móviles */
+    margin-top: 50px;    /* Reduce el margen superior */
+  }
+  
+  .elevate-subtitle {
+    font-size: 28px;     /* Fuente más pequeña para pantallas reducidas */
+  }
+  
+  .elevate-text {
+    font-size: 1rem;     /* Ajusta la fuente para mejorar la lectura en mobile */
+    max-width: 100%;     /* Ocupa todo el ancho disponible */
+    margin: 0 auto;      /* Centra el contenido */
+    text-align: center;  /* Centra el texto para mejor estética */
+  }
+  
+  .elevate-container2 {
+    flex-direction: column; /* Cambia a columna para apilar imagen y texto */
+    padding: 10px;          /* Reduce el padding */
+    gap: 10px;              /* Menor espacio entre elementos */
+    margin-top: 40px;       /* Menor margen superior */
+  }
+  
+  .teaching-img {
+    float: none;          /* Quita el float */
+    width: 100%;          /* Ocupa el 100% del ancho */
+    margin-bottom: 20px;  /* Espacio inferior para separar de la siguiente sección */
+  }
+  
+  .teaching-text {
+    font-size: 1rem;      /* Fuente ajustada para mobile */
+    max-width: 100%;      /* Usa todo el ancho */
+    text-align: center;   /* Centra el texto */
+  }
+}
 
- @media (max-width: 768px) {
+
+/****************** Our Services Section *****************/
+
+@media (max-width: 768px) {
   /* Elevate Section */
   .elevate-container {
-    padding: 20px;
-    margin-top: 50px;
+    padding: 30px;
+    margin-top: 80px;
   }
   .elevate-subtitle {
-    font-size: 28px;
+    font-size: 36px;
   }
   .elevate-text {
-    font-size: 1.1rem;
-    max-width: 100%;
+    font-size: 1.2rem;
+    max-width: 90%;
     margin: 0 auto;
-    text-align: center;
   }
   .elevate-container2 {
-    flex-direction: column;
-    gap: 10px;
+    flex-direction: row;
+    gap: 4%;
     padding: 10px;
   }
   .teaching-img {
-    width: 100%;
+    width: 50%;
     float: none;
-    margin-bottom: 20px;
   }
   .teaching-text {
-    font-size: 1rem;
-    max-width: 100%;
-    text-align: center;
+    font-size: 1.1rem;
+    max-width: 90%;
+    text-align: left;
   }
   
   /* Our Services Section */
   .services-area {
-    padding: 30px 10px;
+    padding: 40px 20px;
   }
   .services-subtitle {
-    font-size: 28px;
-    margin-bottom: 20px;
+    font-size: 36px;
+    margin-bottom: 30px;
   }
   .eight-services {
-    grid-template-columns: 1fr;
-    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
     margin-left: 0;
     max-width: 100%;
     margin: 0 auto;
   }
-  .logo-design,
-  .development,
-  .ui-ux-design,
-  .digital-marketing,
+  
+  /* Mostrar solo los 4 servicios deseados */
   .content-writing,
   .email-marketing,
   .motion-desing,
   .print-desing {
+    display: none;
+  }
+  
+  /* Aseguramos que las tarjetas visibles se adapten correctamente */
+  .logo-design,
+  .development,
+  .ui-ux-design,
+  .digital-marketing {
     max-width: 100%;
-    margin: 0 auto;
   }
   .logo-design-overlay,
   .development-overlay,
   .ui-ux-design-overlay,
-  .digital-marketing-overlay,
-  .content-writing-overlay,
-  .email-marketing-overlay,
-  .motion-desing-overlay,
-  .print-desing-overlay {
-    height: 70%;
-    margin-top: 40px;
-    padding: 0.5rem;
+  .digital-marketing-overlay {
+    height: 80%;
+    margin-top: 60px;
   }
 }
 /************ for tablet ************/
 /************ for tablet ************/
 /************ for tablet ************/
+
+/****************** Main Section *****************/
+@media (min-width: 769px) and (max-width: 1024px) {
+  .logo-container {
+    padding: 15px; /* Se reduce un poco el padding */
+  }
+  
+  .header-logo {
+    width: 35px; /* Se reduce levemente el tamaño del logo */
+  }
+}
 
 /****************** Crafting Visual Stories Section *****************/
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -824,6 +886,43 @@
   }
 }
 
+/****************** Elevate Your Brand Section *****************/
+@media (min-width: 769px) and (max-width: 1024px) {
+  .elevate-container {
+    padding: 30px;       /* Reduce el padding */
+    margin-top: 80px;    /* Menor margen superior */
+  }
+  
+  .elevate-subtitle {
+    font-size: 36px;     /* Disminuye el tamaño de fuente */
+  }
+  
+  .elevate-text {
+    font-size: 1.2rem;   /* Ajusta un poco el tamaño */
+    max-width: 90%;      /* Reduce el ancho máximo */
+    margin: 0 auto;      /* Centra el bloque si es necesario */
+  }
+  
+  .elevate-container2 {
+    flex-direction: row; /* Mantiene la dirección en fila */
+    padding: 10px;       /* Ajusta el padding interno */
+    gap: 4%;             /* Disminuye el espacio entre elementos */
+    margin-top: 50px;    /* Reduce el margen superior */
+  }
+  
+  .teaching-img {
+    float: none;         /* Quita el float para que se comporte mejor en flex */
+    width: 50%;          /* Ocupa la mitad del ancho */
+  }
+  
+  .teaching-text {
+    font-size: 1.1rem;   /* Fuente un poco más pequeña */
+    max-width: 90%;      /* Limita el ancho para mayor legibilidad */
+    text-align: left;    /* Se mantiene alineado a la izquierda */
+  }
+}
+
+
 /****************** Our Services Section *****************/
 @media (min-width: 769px) and (max-width: 1024px) {
   /* Elevate Section */
@@ -840,13 +939,13 @@
     margin: 0 auto;
   }
   .elevate-container2 {
-    /* Si mantienes el layout en row, reduce gap y padding */
+    /* Mantiene el layout en fila, con gap y padding reducidos */
     flex-direction: row;
     gap: 4%;
     padding: 10px;
   }
   .teaching-img {
-    /* Ajusta el ancho o quita el float si es necesario */
+    /* Se ajusta el ancho y se quita el float para tablet */
     width: 50%;
     float: none;
   }
@@ -871,26 +970,28 @@
     max-width: 100%;
     margin: 0 auto;
   }
-  /* Aseguramos que cada tarjeta no exceda el ancho disponible */
-  .logo-design,
-  .development,
-  .ui-ux-design,
-  .digital-marketing,
+  
+  /* Mostrar solo 4 servicios: logo-design, development, ui-ux-design y digital-marketing */
   .content-writing,
   .email-marketing,
   .motion-desing,
   .print-desing {
+    display: none;
+  }
+  
+  /* Aseguramos que cada tarjeta no exceda el ancho disponible */
+  .logo-design,
+  .development,
+  .ui-ux-design,
+  .digital-marketing {
     max-width: 100%;
   }
+  
   /* Ajuste del overlay si se requiere mayor altura y menos margen superior */
   .logo-design-overlay,
   .development-overlay,
   .ui-ux-design-overlay,
-  .digital-marketing-overlay,
-  .content-writing-overlay,
-  .email-marketing-overlay,
-  .motion-desing-overlay,
-  .print-desing-overlay {
+  .digital-marketing-overlay {
     height: 80%;
     margin-top: 60px;
   }
