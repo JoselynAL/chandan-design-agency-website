@@ -74,12 +74,26 @@
   grid-column: 7 / span 12;
   grid-row: 1 / span 2;
   text-align: right;
+  position: relative;
+  display: inline-block;
 }
 
 .woman-img {
+  display: block;
   max-width: 100%;
   height: auto;
   border-radius: 15px;
+  position: relative;
+  z-index: 1;
+  margin-left: 22px;
+  margin-top: 23px;
+}
+
+.woman-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
 }
 
 /****************** Elevate Your Brand Section *****************/
@@ -214,6 +228,31 @@
   justify-content: flex-end;
   padding: 1rem;
   margin-top: 80px;
+}
+
+.logo-design-name,
+.development-name,
+.ui-ux-design-name,
+.digital-marketing-name,
+.content-writing-name,
+.email-marketing-name,
+.motion-desing-name,
+.print-desing-name {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.r-quote-l,
+.r-quote-d,
+.r-quote-u,
+.r-quote-m,
+.r-quote-c,
+.r-quote-e,
+.r-quote-p {
+  display: flex;
+  margin-top: 10px;
+  gap: 10px;
 }
 
 /* button */
