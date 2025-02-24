@@ -35,9 +35,9 @@
   line-height: 1.2;
 }
 
-.underline-img {
-  display: inline;
-  background-image: url(../assets/imgs/section1/icons/Vector\ 5.png);
+.underline-img1 {
+  display: inline-block;
+  background-image: url("../assets/imgs/section1/backimgs/vector1.svg");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
@@ -110,9 +110,9 @@
   font-family: #1a2630;
 }
 
-.underline-img {
-  display: inline;
-  background-image: url(../assets/imgs/section1/icons/Vector\ 4.png);
+.underline-img2 {
+  display: inline-block;
+  background-image: url("../assets/imgs/section1/backimgs/vector2.svg");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
@@ -165,9 +165,9 @@
   position: relative;
 }
 
-.underline-img {
-  display: inline;
-  background-image: url(../assets/imgs/section1/icons/Vector\ 5.png);
+.underline-img3 {
+  display: inline-block;
+  background-image: url("../assets/imgs/section1/backimgs/vector3.svg");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
@@ -308,6 +308,15 @@
   margin-bottom: 8%;
 }
 
+.underline-img4 {
+  display: inline-block;
+  background-image: url("../assets/imgs/section2/backimgs/vector4.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  padding-bottom: 5px;
+}
+
 .stories-area {
   display: flex;
   align-items: center;
@@ -434,6 +443,15 @@
   margin-bottom: 8%;
 }
 
+.underline-img5 {
+  display: inline-block;
+  background-image: url("../assets/imgs/section2/backimgs/vector5.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  padding-bottom: 5px;
+}
+
 .contact-infomation {
   display: flex;
   flex-direction: column;
@@ -546,6 +564,15 @@
   font-size: 2rem;
   color: #1a2630;
   margin-bottom: 8%;
+}
+
+.underline-img6 {
+  display: inline-block;
+  background-image: url("../assets/imgs/section2/backimgs/vector6.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  padding-bottom: 5px;
 }
 
 .three-banner {
