@@ -4,7 +4,7 @@
 
 The designs used in this project are sourced from Figma and credited to their respective creators:
 
-1. **Landing Page For Bakery Website** - [Chandan Singh](https://www.figma.com/community/file/1279079738685247219)
+1. **Design agency website landing page responsive template** - [Chandan Singh](https://www.figma.com/community/file/1279079738685247219)
 
 ## 👥 Contributors
 
