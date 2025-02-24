@@ -109,7 +109,7 @@
 .elevate-subtitle {
   text-align: center;
   font-weight: bold;
-  font-size: 48px;
+  font-size: 33px;
   font-family: #1a2630;
 }
 
@@ -132,7 +132,6 @@
 }
 
 .elevate-container2 {
-  display: flex;
   padding: 5%;
   gap: 6%;
   margin-top: 60px;
@@ -147,15 +146,18 @@
 .teaching-text {
   font-size: 1.3rem;
   line-height: 1.8;
-  max-width: 85%;
+  max-width: 100%;
   font-family: #4f5863;
-  text-align: left;
+  text-align: center;
+  align-items: center;
+  margin-top: 50px;
 }
 
 /****************** Our Services Section *****************/
 .services-area {
-  display: contents;
+  display: block;
   padding: 60px 20px;
+  background-color: #E9F4FF;
 }
 
 .services-subtitle {
@@ -177,11 +179,10 @@
 
 .eight-services {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   max-width: 1200px;
   margin: 0;
-  margin-left: 110px;
 }
 
 .logo-design,
@@ -196,6 +197,14 @@
   width: 100%;
   max-width: 300px;
   overflow: hidden;
+  align-items: center;
+}
+
+.content-writing,
+.email-marketing,
+.motion-desing,
+.print-desing {
+  display: none;
 }
 
 .logo-design-img,
@@ -243,6 +252,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
+  margin-bottom: 6px;
 }
 
 .r-quote-l,
@@ -253,8 +263,9 @@
 .r-quote-e,
 .r-quote-p {
   display: flex;
-  margin-top: 10px;
+  margin-top: 7px;
   gap: 10px;
+  margin-bottom: 20px;
 }
 
 /* button */
