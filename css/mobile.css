@@ -35,7 +35,7 @@
 }
 
 .underline-img {
-  display: inline;
+  display: flex;
   background-image: url(../assets/imgs/section1/icons/Vector\ 5.png);
   background-repeat: no-repeat;
   background-position: bottom;
@@ -59,7 +59,7 @@
   font-size: 1.1rem;
   display: flex;
   align-items: center;
-  height: auto;
+  height: 20px;
   min-height: 55px;
   gap: 0.5rem;
   padding: 10px 20px;
